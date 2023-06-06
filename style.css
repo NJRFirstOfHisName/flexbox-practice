@@ -1,10 +1,10 @@
 * {
-    background-color: #1f2937;
     font-family: 'Roboto', sans-serif;
     margin: 0px, 20px;
 }
 
 .header, .hero, button {
+    background-color: #1f2937;
     color: #f9faf8;
 }
 
@@ -31,7 +31,7 @@
 .hero {
     display: flex;
     margin: auto;
-
+    padding: 30px;
 }
 
 .hero-left {
@@ -63,4 +63,33 @@ button {
     display: inline-block;
     padding: 5px;
     margin: 5px;
+    border: none;
+}
+
+.info {
+    background-color: white;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+    padding: 30px;
+}
+
+.info-box-container {
+    display: flex;
+    justify-content: center
+}
+
+.info-box {
+    text-align: center;
+    /* padding: 15px; */
+    width: 140px
+}
+
+.info-box-img {
+    border: 2px solid #3882f6;
+    border-radius: 6px;
 }
