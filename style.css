@@ -1,0 +1,38 @@
+* {
+    background-color: #1f2937;
+    font-family: roboto;
+}
+
+.header, .hero, button {
+    color: #f9faf8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-link {
+    padding: 5px;
+}
+
+.hero {
+    font-size: 48px;
+    font-weight: extra-bold;
+    justify-content: flex-start;
+}
+
+button {
+    background-color: #3882f6
+}
